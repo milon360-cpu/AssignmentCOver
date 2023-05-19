@@ -1,0 +1,88 @@
+*
+{
+    box-sizing: border-box;
+}
+.user-form 
+{
+    background-color: rgba(226, 236, 241, 0.418);
+    /* max-width: 50%; */
+    margin-top: 30px;
+    padding: 20px;
+    
+}
+
+.printedContainer 
+{
+    margin: 10px;
+ 
+    border: 1px solid #0b5dd72f;
+    margin-top: 35px;
+    border-radius: 4px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+
+ 
+}
+
+.page-container 
+{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid rgba(128, 128, 128, 0.308);
+}
+.submitted  
+{
+    border: 1px solid rgba(18, 120, 236, 0.512);
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 15px;
+    width: 400px;
+    background-color: aliceblue;
+}
+.submittedBy
+{
+    border: 1px solid rgba(18, 120, 236, 0.512);
+    width: 50%;
+    margin: 0px auto;
+    padding: 30px 20px;
+    border-radius: 15px;
+    width: 400px;
+    background-color: aliceblue;
+}
+.mmt 
+{
+    text-align: right;
+    margin-top: 20px;
+    opacity: .5;
+    color: rgb(122, 124, 123);
+
+}
+.logo-container 
+{
+     display: flex;
+     justify-content: flex-end;
+}
+.logo 
+{
+    width: 70px;
+    position: relative;
+    display: block;
+    margin-right: 15px;
+}
+.logo-title 
+{
+    display: flex;
+    align-items: center;
+}
+.logo-title h1 
+{
+    color: #0B5ED7;
+    font-size: 35px;
+}
+.submission-date 
+{
+    font-size: 19px;
+    display: block;
+}
